@@ -15,9 +15,9 @@ import Parse from 'parse/dist/parse.min.js';
 function App() {
 
 // Your Parse initialization configuration goes here
-const PARSE_APPLICATION_ID = 'E2fTcnwVQ6Ow85Q7dWsRVAMsyO4dzZNGt5UEgVw3';
-const PARSE_HOST_URL = 'https://parseapi.back4app.com/';
-const PARSE_JAVASCRIPT_KEY = 'ClT0x6wydTTOMI67BE2eECOg09vlaL6Z7dNRlQBF';
+const PARSE_APPLICATION_ID = '';
+const PARSE_HOST_URL = '';
+const PARSE_JAVASCRIPT_KEY = '';
 Parse.initialize(PARSE_APPLICATION_ID, PARSE_JAVASCRIPT_KEY);
 Parse.serverURL = PARSE_HOST_URL;
 
